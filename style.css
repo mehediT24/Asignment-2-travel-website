@@ -1,0 +1,564 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 140px 50px 140px;
+}
+
+.brand-name {
+  display: flex;
+  width: 600px;
+}
+
+.brand-name>h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.brand-name>img {
+  width: 50px;
+  height: 50px;
+}
+
+.Travel-text,
+.Home {
+  color: #FF5400;
+}
+
+.nav-bar {
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+}
+
+.nav-bar>ul {
+  display: flex;
+  gap: 44px;
+}
+
+.nav-bar>ul>li {
+  list-style-type: none;
+}
+
+.nav-bar>ul>li>a {
+  text-decoration: none;
+}
+
+.banner {
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./image/Banner.png);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  height: 500px;
+  margin-left: 140px;
+  margin-right: 140px;
+  align-items: center;
+}
+
+.banner-details {
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+.banner-details>h3 {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.banner-details>p {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.search-field {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 16px;
+  display: inline-flex;
+  position: relative;
+  top: 40%;
+  left: 10%;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+}
+
+.text,
+.btn {
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border: 0px;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+.btn {
+  background: #FF5400;
+  color: #FFF;
+}
+
+img {
+  position: relative;
+  top: 30%;
+  right: 6%;
+}
+
+.position {
+  margin-right: 24px;
+}
+
+.Popular-tour {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.Popular-tour-details {
+  width: 600px;
+  height: 550px;
+  margin-top: 160px;
+}
+
+.Popular-tour-details>h3,
+p,
+li {
+  padding-bottom: 20px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.Popular-tour-details>p,
+li {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list-para {
+  padding-bottom: 15px;
+}
+
+.popular-section-image {
+  width: 600px;
+  height: 550px;
+}
+
+.place-details {
+  text-align: center;
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.destination-para {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.choose-destination {
+  padding-top: 50px;
+}
+
+.container-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-image {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 24px;
+  width: 90%;
+  height: 100%;
+  margin: 0px 140px 50px 140px;
+}
+
+.maldivs {
+  grid-column: 1/6;
+}
+
+.indonesia {
+  grid-column: 6/12;
+}
+
+.srilanka4 {
+  grid-column: 1/5;
+}
+
+.northamerica5 {
+  grid-column: 5/9;
+}
+
+.kashmir5 {
+  grid-column: 9/12;
+  position: relative;
+  right: 5%;
+}
+
+.bangladesh6 {
+  grid-column: 1/6;
+}
+
+.banderban7 {
+  grid-column: 6/12;
+}
+
+.section-three {
+  margin-top: 130px;
+}
+
+.choose>h3 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.choose>p {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.choose {
+  text-align: center;
+}
+
+.paragraph {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.one {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  grid-column: 2/7;
+}
+
+.two {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  grid-column: 7/10;
+}
+
+.three {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  grid-column: 5/9;
+}
+
+.one,
+.two,
+.three {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 573px;
+  height: 155px;
+  flex-shrink: 0;
+  padding-top: 50px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 24px;
+}
+
+.deals {
+  padding-top: 50px;
+}
+
+.deals>h3 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.last {
+  text-align: center;
+}
+
+.details>h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.details {
+  width: 500px;
+  height: 410px;
+}
+
+.video-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.subscribe-box {
+  border: 1px solid #FF5400;
+  width: 500px;
+  height: 415px;
+  border-radius: 10px;
+  margin-top: 127px;
+}
+
+.input,
+.subscribe-btn {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-bottom: 10px;
+  margin-left: 40px;
+  border: none;
+  text-align: center;
+}
+
+.subscribe-btn {
+  background-color: #FF5400;
+}
+
+.subscribe-para {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.subscribe-box>h4 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.fountain {
+  width: 672px;
+  height: 422px;
+  flex-shrink: 0;
+  position: relative;
+  left: 5%;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.last-btn {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19deg);
+  flex-shrink: 0;
+  z-index: 1;
+  font-size: 24px;
+  position: relative;
+  left: 41%;
+  bottom: 13%;
+}
+
+.save {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 60px;
+}
+
+.footer {
+  position: relative;
+  top: 20%;
+  left: 40%;
+}
+
+.fotter {
+  text-align: center;
+  color: #5A5A5D;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 60px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+hr {
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 20%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  
+  .nav-bar {
+    display: none; 
+  }
+
+  .banner  {
+    width: 100%;
+  }
+  .input-field {
+    flex-direction: column;
+  }
+  .brand-name img {
+    width: 50px; 
+  }
+
+  .banner-details h3 {
+    font-size: 1.5em; 
+  }
+
+  .search-field {
+    flex-direction: column;
+  }
+
+  .Popular-tour {
+    flex-direction: column-reverse;
+  }
+
+  .container-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-image img {
+    width: 100%; 
+   }
+
+  
+  .card {
+    display: flex;
+    flex-direction: column; 
+  }
+
+
+  .deals {
+    text-align: center; 
+  }
+
+  .video-details {
+    display: flex;
+    flex-direction: column; }
+
+  .video iframe {
+    width: 100%;
+  }
+
+  
+  .flexbox {
+    display: flex;
+    flex-direction: column; 
+   }
+  .subscribe-box,
+  .fountain {
+    width: 100%; }
+
+  .fountain img {
+    width: 100%; 
+  }
+}
